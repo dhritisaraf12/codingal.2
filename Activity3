@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olympic awards</title>
+    </head>
+    <body>
+
+        <table border="3">
+            <tr>
+                <th>Athelete</th>
+                <th>Country</th>
+                <th>Sport</th>
+                <th>Gold medals</th>
+            </tr>
+            <tr>
+             <td>Micheal Phelps</td>
+             <td>United States</td>
+             <td>Swimming</td>
+             <td>23</td>
+            </tr>
+
+            <tr>
+                <td>Simone Biles</td>
+                <td>United States</td>
+                <td>Gymnastics</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <td>Usain Bolt</td>
+                <td>Jamaica</td>
+                <td>Sprinting</td>
+                <td>8</td>
+            </tr>
+        </table>
+    </body>
+</html>
