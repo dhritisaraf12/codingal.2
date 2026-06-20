@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Planet Earth</title>
+    </head>
+    <body>
+        
+        <ol>
+            <li>Switch off the lights when you leave a room.</li>
+            <li>Use a resable water bottle everyday.</li>
+            <li>Walk or cycle instead of traveling by a car.</li>
+            <li>Plant a tree in your neibourhood.</li>
+        </ol>
+
+        
+        <ul>
+            <li>Switch off the lights when you leave a room.</li>
+            <li>Use a resable water bottle everyday.</li>
+            <li>Walk or cycle instead of traveling by a car.</li>
+            <li>Plant a tree in your neibourhood.</li>
+            </ul>
+
+            <dl>
+                <dt>Climate change</dt>
+            <dd>Long term shifts caused in global temperature caused by human activities</dd>
+        
+        
+        <dt>Renewable energy</dt>
+    <dd>Energy from natural resources like sunlight and winf that never run out.</dd>
+
+<dt>Biodiversity</dt>
+<dd>The variety of all living species on earth.</dd></dl>
+    </body>
+</html>
