@@ -1,64 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <title>My Colour Card</title>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: lightgray;
+                background-image: linear-gradient(to bottom, lightbllue, lightgray);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
 
-    <style>
-         /* Universal Selector - Applies to everything on this page */
-         *{
-            font-size: 16px;
-         }
+            .page-header {
+                text-align: center;
+                color: black;
+                border-radius: 16px;
+                background-image: linear-gradient(to right, yellow, lightyellow); 
+            }
 
-         /* Element Selectors */
-         body {
-            background-color: lightgray;
-        }
+            .fact-card{
+                background-color: lightblue;
+                border-radius: 16px;
+                color: black;
+            }
 
-        h1 {
-            color: "darkblue";
-        }
+            .fact-card h2 {
+                color: dimgray;
+            }
 
-        h2 {
-            color: "purple";
-        }
+            .star {
+                width: 60px;
+                height: 60px;
+                background-color: yellow;
+                border-radius: 50%;
+                shape-outside: circle;
+                animation: twinkle 2s infinite alternate;
+            }
 
-        p {
-            color: "dimgray";
-        }
+            @keyframes twinkle {
+                from { background-color: white; }
+                to { background-color: yellow; }
+            }
 
-        /* Class selector */
-        .my-detail {
-            color:darkgreen;
-            font weight: bold;
-        }
+            footer-text {
+                text-align: center;
+                color: black;
+ }
 
-        /* ID Selector */
-        #my-detail {
-            background-color: lightcyan;
-        }
+  </style>
 
-    </style>
-</head>
-<body>
+    </head>
+    <body>
 
-    <h1>My Colour Card</h1>
-
-    <!-- Inline CSS: Add style="color:     ;" inside this p tag-->
-     <p style="color: crimson;">Hi!This is my very own webpage.</p>
-
-     <div id="my card">
-
-        <h2>About Me</h2>
-        <p class="my detail";>My name is Dhriti.</p>
-        <p class="my detail";>My favourite colour is blue.</p>
-        <p class="my detail";>My favourite subject is maths.</p>
-        <p class="my detail";>My favourite food is pasta.</p>
+    <div class = "page-header">
+        <h1>My Space Page</h1>
+        <p>Welcome to my corner of the galaxy!</p>
+    </div>
+     <div class = "fact-card">
+        <h2>Fun Space Fact</h2>
+        <p>The sun is so big that one million Earths can fit inside it.</p>
      </div>
 
-     <h2>My Favourite Things</h2>
-     <p>My favourite animal is a dog.</p>
-     <p>My favourite sport is pickleball.</p>
-     <p>My favourite movie is Swapped.</p>
-</body>
+     <div class ="star"></div>
+
+     <p class="footer-text">Made by</p>
+     </body>
 </html>
