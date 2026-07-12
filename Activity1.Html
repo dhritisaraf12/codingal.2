@@ -1,66 +1,55 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <style>
-            body {
-                background-color: lightgray;
-                background-image: linear-gradient(to bottom, lightbllue, lightgray);
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
 
-            .page-header {
-                text-align: center;
-                color: black;
-                border-radius: 16px;
-                background-image: linear-gradient(to right, yellow, lightyellow); 
-            }
+<head>
 
-            .fact-card{
-                background-color: lightblue;
-                border-radius: 16px;
-                color: black;
-            }
+<title>My Animal Fact File</title>
+<style>
+    body {
+        background-color: lightgreen;
+        font-family: Arial, Sans-serif;
+    }
+    .fact-file {
+        background-color: yellow;
+        color: black;
+        width: 260px;
+        padding:25px;
+        border: 4px solid forestgreen;
+        margin: 30px;
+    }
+    .animal-name {
+        color: forestgreen;
+        font-size: 22px;
+    }
+    .detail {
+        color: black;
+    }
+    .cool-fact {
+        color: darkorange;
+        font-style: italic;
+    }
 
-            .fact-card h2 {
-                color: dimgray;
-            }
+    </style>
 
-            .star {
-                width: 60px;
-                height: 60px;
-                background-color: yellow;
-                border-radius: 50%;
-                shape-outside: circle;
-                animation: twinkle 2s infinite alternate;
-            }
+</head>
 
-            @keyframes twinkle {
-                from { background-color: white; }
-                to { background-color: yellow; }
-            }
+<body>
 
-            footer-text {
-                text-align: center;
-                color: black;
- }
+<div class="fact-file">
 
-  </style>
+<h2 class="animal-name">Snow Leopard</h2>
 
-    </head>
-    <body>
+<p class="detail">Type: Big Cat</p>
 
-    <div class = "page-header">
-        <h1>My Space Page</h1>
-        <p>Welcome to my corner of the galaxy!</p>
-    </div>
-     <div class = "fact-card">
-        <h2>Fun Space Fact</h2>
-        <p>The sun is so big that one million Earths can fit inside it.</p>
-     </div>
+<p class="detail">Lives in: Mountain ranges of Central Asia</p>
 
-     <div class ="star"></div>
+<p class="detail">Diet: Deer, goats, and wild sheep</p>
 
-     <p class="footer-text">Made by</p>
-     </body>
+<p class="cool-fact">Cool Fact: Can leap up to 15 metres in one jump!</p>
+
+</div>
+
+</body>
+
 </html>
