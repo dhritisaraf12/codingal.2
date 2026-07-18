@@ -1,238 +1,114 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Restaurant Menu Card</title>
-        <style>
+    <title>My Fitness Routine CardM</title>
+    <style>
 
         title {
-            font-size: 40px;
             font-family:'Courier New', Courier, monospace;
-            color: white;
-            text-align: centre;
-            text-transform: uppercase;
-            text-shadow: 3px 3px lightgray;
+            font-size: 40px;
+            color: black;
+            background-color: #FFC5AA;
+            text-shadow: 3px 3px lightgray:
         }
-        body {
-            font-size: 28px;
-            font-family:Ariel,San serif;
-            background-color:pink;
-            color:black;
-        }
+      body {
+        background-color: #FF9D9D;
+        font-size: 28px
+        color: black;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
-        .menu-card {
-            text-align:centre;
-           font-size: 28px;
-            text-transform:capitalize;
-            color:black;
-            background-color:pink;
-
-        }
-        
-        .menu {
-            text-align:centre;
-            text-transform:capitalize;
-            color:black;
-            background-color:pink;
-            font-size: 30px
-            font-family: 'Courier New' , Courier, monospace;
-            font-family: bold;
-        } 
-
-    .menu section {
+    .routine-card {
         font-size: 28px;
+        background-color: #BBF1D2;
         color: black;
-        background-color:pink;
-        text-align: centre;
-        font-family:'Courier New', Courier, monospace;
-        text-transform:captalize;
-
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        float: left;
+        margin: 20px;
+        padding: 18px;
+        border: 3px solid #EEF8CD;
+        width: 350px
+        height: 360px;
     }
 
-    .dish-name {
-        font-size:28px;
-        color: black;
-        text-align: centre;
-        background-color: lightpink;
-        text-transform: capitalize;
-        font-family:'Courier New', Courier, monospace;
-        font-size: bold;
+    .clear-section {
+        clear: both;
     }
 
-    .dish-description {
-        font-size: 18px;
-        color: black;
-        text-align: centre;
-        background-color:lightpink;
-        font-family: italic;
+    .routine-time {
+        font-size: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black:
+        text-trasform: capitalize;
     }
 
-    .menu-subsection {
-        font-size: 30px;
-        color: black;
-        text-transform: uppercase;
-        text-align: centre;
-        font-family:'Courier New', Courier, monospace;
-
+    routine-card p{
+        font-size: 15px;
+        line-height: 2.5;
+    }
+  
+    routine-card h2{
+        color: black
+        font-size: 22px
     }
 
-    .restuarant-name {
-        font-family:'Courier New', Courier, monospace;
-        text-transform: uppercase;
-        text-align: centre;
-    }
-
-    .tagline {
-        font-family:'Courier New', Courier, monospace;
-        font-sixe: 30px;
-        text-align: centre;
-        text-transform: capitalize;
+    .note {
+    width: 800px;
+    margin: 20px auto;
+    border: 3px dashed #EEF8CD;
+    padding: 15px;
+    background-color: #bbf1d2;
     }
 
 
-        </style>
+    </style>
     </head>
+    
     <body>
+        <div class="routine-card">
+            <h2>Warm-Up</h2>
+            <p>
+                Start the day with light dynamic movements like brisk walking, arm cirlces to prepare your muscles and joints</p>
+            </p>
+            <p class="routine-time">Time: 10 minutes</p>
 
-        <div class="menu-card">
+            <div class="routine-card">
+                <h2>Cardio Exercises</h2>
+                <p>
+                   Aim for moderate intensity cardio like jogging or cycling.
+                </p>
+                <p class="routine-time">Time: 30 minutes</p>
+            </div>
 
-            <h2 class="restuarant-name">My Restuarant</h2>
-            <h3 class="tagline">Good Food, Good Mood</h3>
+            <div class="routine-card">
+                <h2>Strenght Training</h2>
+                <p>
+                    Practice push-ups, squats, lunges to build and lean muscle mass.
+                </p>
+                <p class="routine-time">Time: 10 minutes</p>
 
-        </div>
+            <div class="routine-card">
+                <h2>Flexibility and Mobility</h2>
+                 <p>
+                    Incorporate static strecthing or yoga to improve range of motion</p>
+                    <p class="routine-time">Time: 20 minutes</p>
 
-        <div class="menu">
+                    <div class="clear-section"></div>
+             <div class="routine-card">
+                <h2>Evening walk</h2>
+                <p>
+                Go for a relaxing walk to stay active and refresh your mind.
+                 </p>
+             <p class="routine-time">Time: 45 minutes</p>
+                        </div>
+                        <div class="clear-section"></div>
 
-           <h4 class="menu section">Soups</h4>
-            <p class="dish-name">Tomato Basil Soup</p>
-            <p class="dish-description">A classic soup made with tomatoes and basil.</p>
-
-           <p class="dish-name">Sweet Corn Soup</p>
-            <p class="dish-description">A creamy soup made with sweet corn and vegetables.</p>
-
-            <p class="dish-name">Minestrone Soup</p>
-            <p class="dish-description">A hearty soup made with vegetables and beans.</p>
-
-            <p class="dish-name">Manchow Soup</p>
-            <p class="dish-description">A spicy soup made with vegetables and noodles.</p>
-
-            <p class="dish-name">Hot and Sour Soup</p>
-            <p class="dish-description">A tangy soup made with tamarind and chili.</p>
-
-            <h4 class="menu section">Starters</h4>
-
-            <p class="dish-name">Garlic Bread</p>
-            <p class="dish-description">Freshly baked bread with a hint of garlic.</p>
-
-            <p class="dish-name">Bruschetta</p>
-            <p class="dish-description">Toasted bread topped with tomatoes, garlic, and basil.</p>
-
-            <p class="dish-name">Stuffed Mushrooms</p>
-            <p class="dish-description">Mushrooms filled with a savory mixture of herbs and cheese.</p>
-
-            <p class="dish-name">Caesar Salad</p>
-            <p class="dish-description">Crisp romaine lettuce with Caesar dressing and croutons.</p>
-
-            <p class="dish-name">Crispy Chillie Babycorns</p>
-            <p class="dish-description">Crispy baby corns seasoned with chili and served with a tangy dip.</p>
-
-            <p class="dish-name">Paneer Tikka</p>
-            <p class="dish-description">Cubed paneer skewered and grilled to perfection.</p>
-
-            <h4 class="menu section">Main Course</h4>
-        
-            <h5 class="menu-subsection">Pastas</h5>
-
-            <p class="dish-name">Penne Arrabiata</p>
-            <p class="dish-description">Penne pasta in a spicy tomato sauce with garlic and herbs.</p>
-
-            <p class="dish-name">Fettuccine Alfredo</p>
-            <p class="dish-description">Fettuccine pasta in a rich and creamy Alfredo sauce.</p>
-
-            <p class="dish-name">Pesto Pasta</p>
-            <p class="dish-description">Pasta tossed in a fresh basil pesto sauce.</p>
-
-            <h5 class="menu-subsection">Pizzas</h5>
-
-            <p class="dish-name">Farmhouse pizza</p>
-            <p class="dish-description">A delicious pizza with a variety of fresh vegetables and cheese.</p>
-
-            <p class="dish-name">Taco Pizza</p>
-            <p class="dish-description">A unique twist on a classic pizza with a Mexican flair</p>
-
-            <p class="dish-name">Cheese Burst Pizza</p>
-            <p class="dish-description">A cheesy delight with a burst of flavor in every bite.</p>
-
-            <h5 class="menu-subsection">Indian Classics</h5>
-
-            <p class="dish-name">Chola Bhatura</p>
-            <p class="dish-description">Crispy flatbread served with a spicy chickpea curry.</p>
-
-            <p class="dish-name">Pav Bhaji</p>
-            <p class="dish-description">A flavorful Mumbai street food with a spicy vegetable curry and buttered bread.</p>
-
-            <p class="dish-name">Dal Batti Churma</p>
-            <p class="dish-description">A traditional Rajasthani dish consisting of lentils, bread, and sweet dessert.</p>
-
-            <p class="dish-name">Litthi Chokha</p>
-            <p class="dish-description">A sweet and savory dish made with cottage cheese and mashed vegetables.</p>
-
-            <h5 class="menu-subsection">Breads</h5>
-
-            <p class="dish-name">Garlic Naan</p>
-            <p class="dish-description">Soft and fluffy flatbread infused with garlic and butter.</p>
-
-            <p class="dish-name">Kulcha</p>
-            <p class="dish-description">A leavened flatbread stuffed with spiced potatoes and peas.</p>
-
-            <p class="dish-name">Butter Naan</p>
-            <p class="dish-description">Soft and fluffy flatbread topped with butter.</p>
-
-            <p class="dish-name">Tandoori Roti</p>
-            <p class="dish-description">Traditional Indian flatbread cooked in a tandoor oven.</p>
-
-            <p class="dish-name">Missi Roti</p>
-            <p class="dish-description">A traditional Indian flatbread made with whole wheat flour and cooked on a griddle.</p>
-
-            <p class="dish-name">Lachha Paratha</p>
-            <p class="dish-description">A flaky and layered flatbread, perfect for pairing with curries.</p>
-
-            <p class="dish-name">Roomali Roti</p>
-            <p class="dish-description">A delicate and thin flatbread, often served with curries.</p>
-
-            <h5 class="menu-subsection">Sabjies</h5>
-
-            <p class="dish-name">Dum Aloo</p>
-            <p class="dish-description">Potatoes cooked in a rich and aromatic gravy.</p>
-
-            <p class="dish-name">Panner Butter Masala</p>
-            <p class="dish-description">Cottage cheese in a rich and creamy tomato-based sauce.</p>
-
-            <p class="dish-name">Jhal Frazi</p>
-            <p class="dish-description">A spicy and flavorful dish made with mixed vegetables.</p>
-
-            <p class="dish-name">Malai Kofta</p>
-            <p class="dish-description">Soft and creamy vegetable balls in a rich and creamy sauce.</p>
-
-            <p class="dish-name">Kadai Panner</p>
-            <p class="dish-description">Cottage cheese in a spicy and flavorful sauce.</p>
-
-            <h4 class="menu section">Desserts</h4>
-
-            <p class="dish-name">Brownie with Ice Cream</p>
-            <p class="dish-description">Rich and fudgy brownie served with a scoop of vanilla ice cream.</p>
-
-            <p class="dish-name">Tutti Frutti Ice Cream</p>
-            <p class="dish-description">A delicious mix of various fruits in a creamy ice cream base.</p>
-
-            <h4 class="menu section">Beverages</h4>
-            <p class="dish-name">Fresh Lime Soda</p>
-            <p class="dish-description">A refreshing and tangy soda made with fresh lime juice.</p>
-                
-                <p class="dish-name">Mojioto</p>
-                <p class="dish-description">A classic mocktail made with fresh mint, lime, and soda water</p>
-
-           <p class="dish-name">Brownie Shake</p>
-           <p class="dish-description>A rich and creamy shake made with chocolates and brownie pieces.</p>
+            <div class="note">
+                <p>Note: A good routine includes exercise, rest, healthy diet, discipline and consistency</p>
+            </div>
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
-    </html>
+</html>
