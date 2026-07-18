@@ -1,55 +1,93 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <title>My Pet Page</title>
+        <style>
 
-<head>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: lightyellow;
+                padding: 65px 30px 30px 30px;
+                min-height: 1800px;
+            }
 
-<title>My Animal Fact File</title>
-<style>
-    body {
-        background-color: lightgreen;
-        font-family: Arial, Sans-serif;
-    }
-    .fact-file {
-        background-color: yellow;
-        color: black;
-        width: 260px;
-        padding:25px;
-        border: 4px solid forestgreen;
-        margin: 30px;
-    }
-    .animal-name {
-        color: forestgreen;
-        font-size: 22px;
-    }
-    .detail {
-        color: black;
-    }
-    .cool-fact {
-        color: darkorange;
-        font-style: italic;
-    }
+            h1 , h2 { background-color: darkorange; }
 
-    </style>
+            .top-bar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: darkorange;
+                color: white;
+                padding: 14px 20px;
+            }
 
-</head>
+            .list-item {
+                background-color: white;
+                border: 2px solid darkorange;
+                padding: 10px 20px;
+                margin: 5px 0;
+            }
 
-<body>
+            .special-note {
+                position: relative;
+                left: 30px;
+                background-color: gold;
+                padding: 10px 20px;
+            }
 
-<div class="fact-file">
+            .pet-card {
+                position: relative;
+                background-color: white;
+                border: 3px solid darkorange;
+                padding: 15px 25px;
+            }
 
-<h2 class="animal-name">Snow Leopard</h2>
+            .badge {
+                position: absolute;
+                top: 8px;
+                right: 8px;
+                background-color: forestgreen;
+                color: white;
+                padding: 4px 8px;
+            }
 
-<p class="detail">Type: Big Cat</p>
+            .section-label {
+                position: sticky;
+                top: 55px;
+                background-color: darkorange;
+                color: white;
+                padding: 10px 20px;
+                margin: 15px 0 8px;
+            }
+        </style>
 
-<p class="detail">Lives in: Mountain ranges of Central Asia</p>
+    </head>
+    <body>
+        <div class="top-bar">My Pet Page - Buddy The Labrador</div>
+        <h1>Meet Buddy!</h1>
 
-<p class="detail">Diet: Deer, goats, and wild sheep</p>
+        <h2>Static</h2>
+        <div class="list-item">Breed: Labrador</div>
+        <div class="list-item">Age: 2 years</div>
 
-<p class="cool-fact">Cool Fact: Can leap up to 15 metres in one jump!</p>
+        <h2>Relative</h2>
+        <p>This note shifts right from its original spot.</p>
+        <div class="special-note">Pet of the month!</div>
 
-</div>
+        <h2>Absolute</h2>
+        <p>The badge is pinned to the corner of the card.</p>
+        <div class="pet-card">
+            <p>Buddy - Labrador , 2 years</p>
+            <div class="badge">Adopted!</div>
 
-</body>
-
+            <h2>Sticky</h2>
+            <p>Scroll down the table lock at the top!</p>
+            <div class="section-label">More Pets Available</div>
+            <div class="list-item">Luna- Poodle, 1 year</div>
+            <div class="list-item">Max - German Shephard , 3 years</div>
+            <div class="list-item">Daisy - Beagle , 4 years</div>
+        </div>
+    </body>
 </html>
